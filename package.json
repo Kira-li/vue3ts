@@ -6,7 +6,9 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build:prod": "vue-tsc && vite build",
+    "build:stage": "vue-tsc && vite build --mode staging",
+    "build:dev": "vue-tsc && vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md,scss}\"",

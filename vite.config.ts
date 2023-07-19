@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-      outDir: 'build', // 打包文件的输出目录
       assetsDir: 'static', // 静态资源的存放目录
       assetsInlineLimit: 4096, // 图片转 base64 编码的阈值
     },
