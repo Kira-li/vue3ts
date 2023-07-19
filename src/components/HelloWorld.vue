@@ -1,6 +1,7 @@
 <template>
   <h1>{{ msg }}</h1>
   <div class="card">
+    <p>点击计数</p>
     <a-button type="primary" @click="count++">count is {{ count }}</a-button>
   </div>
 </template>
